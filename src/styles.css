@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #efefef;
+}
+h2 {
+  font-family: cursive;
+}
+button {
+  font-size: large;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+  font-weight: bolder;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  width: 50%;
+  margin: 1rem auto;
+  font-size: large;
+}
