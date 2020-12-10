@@ -7,6 +7,10 @@ body {
 }
 h2 {
   font-family: cursive;
+  margin-bottom: 0.2rem;
+}
+h5 {
+  margin: 0rem;
 }
 button {
   font-size: large;

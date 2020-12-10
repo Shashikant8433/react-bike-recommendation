@@ -36,7 +36,7 @@ export default function App() {
     setoutput(output);
   }
 
-  function Sport() {
+  function Sporty() {
     var output = "";
 
     output = Sports.map((item) => <li key={item}>{item}</li>);
@@ -47,9 +47,10 @@ export default function App() {
   return (
     <div className="App">
       <h2>My favourite bikes</h2>
+      <h5>Bikes which i love</h5>
       <button onClick={() => twoStroke()}>2 strokes!</button>
       <button onClick={() => recent()}>Recent bikes</button>
-      <button onClick={() => Sport()}>Sports</button>
+      <button onClick={() => Sporty()}>Sports</button>
       <div>{output}</div>
     </div>
   );
